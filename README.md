@@ -7,11 +7,9 @@ This Project also Contains an assignment which asks to implement some basic widg
 Create a login and signup page in flutter.
 ## ScreenShots
 
-
-
-### :heart: Found this project useful?
-
-If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
+<pre>
+<img src="https://i.ibb.co/xq2X3SR/Screenshot-1644389286.png"  width="200" height="400" />  <img src="https://i.ibb.co/1n9L94Y/Screenshot-1644389303.png"  width="200" height="400" />  <img src="https://i.ibb.co/xsyQWKN/Screenshot-1644389311.png"  width="200" height="400" />  <img src="https://i.ibb.co/ZGRzMJJ/Screenshot-1644389316.png"  width="200" height="400" />  <img src="https://i.ibb.co/X4CkJ2R/Screenshot-1644389327.png"  width="200" height="400" />  <img src="https://i.ibb.co/sbPBTsQ/Screenshot-1644389331.png"  width="200" height="400" /> <img src="https://i.ibb.co/sbPBTsQ/Screenshot-1644389331.png"  width="200" height="400" />  <img src="https://i.ibb.co/bz7n93z/Screenshot-1644389346.png"  width="200" height="400" /> 
+</pre>
 
 ---
 
