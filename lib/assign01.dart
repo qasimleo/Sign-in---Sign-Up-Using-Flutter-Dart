@@ -8,7 +8,10 @@ class assignment extends StatelessWidget {
   const assignment({Key? key}) : super(key: key);
 
   void sampleFunction_1() {
-    print('Function Called');
+    print("Calling Function : ");
+    for (int i = 0; i < 4; i++) {
+      print("i = $i");
+    }
   }
 
   @override
@@ -104,22 +107,6 @@ class assignment extends StatelessWidget {
               height: 10.0,
             ),
 
-            // 2nd Screen
-            // const Padding(
-            //   padding: EdgeInsets.all(10.0),
-            //   child: FlatButton(
-            //       onPressed: () {
-            //         Navigator.pop(context);
-            //       },
-            //       padding: EdgeInsets.symmetric(vertical: 10.0),
-            //       color: Colors.black,
-            //       textColor: Colors.blue,
-            //       child: Text(
-            //         "Home Screen",
-            //         style: TextStyle(fontSize: 20.0),
-            //       )),
-            // ),
-
             // Card
             Card(
               shape: RoundedRectangleBorder(
@@ -152,22 +139,20 @@ class assignment extends StatelessWidget {
                       FlatButton(
                         textColor: const Color(0xFF6200EE), // Text Color
                         onPressed: () {
-                          // Perform some action
+                          Navigator.pushNamed(context, 'fibonocci');
                         },
-                        child: const Text('Action 1'),
+                        child: const Text('Fibonocci Seq'),
                       ),
                       FlatButton(
                         textColor: const Color(0xFF6200EE), // Text Color
                         onPressed: () {
-                          // Perform some action
+                          Navigator.pushNamed(context, 'factorial');
                         },
-                        child: const Text('Action 2'),
+                        child: const Text('Factorial'),
                       ),
                       FlatButton(
                         textColor: const Color(0xFF6200EE), // Text Color
-                        onPressed: () {
-                          // Perform some action
-                        },
+                        onPressed: () {},
                         child: const Text('Action 3'),
                       ),
                     ],

@@ -6,6 +6,8 @@ import 'package:loginuicolors/snackbar.dart';
 import "package:loginuicolors/alertdialog.dart";
 import "package:loginuicolors/assign01.dart";
 import "package:loginuicolors/Tabbar.dart";
+import "package:loginuicolors/fibonocci.dart";
+import "package:loginuicolors/factorial.dart";
 
 void main() {
   runApp(MaterialApp(
@@ -19,6 +21,8 @@ void main() {
       'alertdialog': (context) => alertdia(),
       'assign01': (context) => assignment(),
       'Tabbar': (context) => MyTabbedPage(),
+      'fibonocci': (context) => fib(),
+      'factorial': (context) => fact(),
     },
   ));
 }
